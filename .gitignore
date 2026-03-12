@@ -1,0 +1,26 @@
+# Virtual environment
+airflow_env/
+
+# Screenshots
+Screenshots/
+
+# Airflow metadata & logs
+airflow/airflow.db
+airflow/airflow-webserver.pid
+airflow/logs/
+airflow/airflow.cfg
+airflow/webserver_config.py
+
+# MLflow local tracking
+mlruns/
+mlflow.db
+
+# Python
+__pycache__/
+*.pyc
+
+# Processed data (keep only raw dataset)
+data/titanic_encoded.csv
+data/titanic_features.csv
+data/titanic_missing_handled.csv
+data/*.Identifier
